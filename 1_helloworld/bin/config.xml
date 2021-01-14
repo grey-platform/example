@@ -1,11 +1,11 @@
 <program>
-    <appname>helloworld</appname>   <!-- -->
-    <taskname>helloworld</taskname>
-    <developer>dodobox</developer>
-    <descript>test demo</descript>
-    <versioncode>1</versioncode>
+    <appname>helloworld</appname> <!--app名称-->
+    <taskname>helloworld</taskname> <!--用于用户后台任务显示app名-->
+    <developer>dodobox</developer> <!--开发者-->
+    <descript>test demo</descript> <!--描述文字-->
+    <versioncode>1</versioncode> <!--版本号-->
     
-    <model>console</model>	<!--normal console-->
-    <heap>10485760</heap>
-    <stack>4194304</stack>
+    <model>console</model>	<!--重要：可选模式 normal console 若是控制台程序则需设置为console,其他情况使用normal-->
+    <heap>10485760</heap> <!--为该程序分配的堆大小-->
+    <stack>4194304</stack> <!--为该程序分配的堆大小-->
 </program>
