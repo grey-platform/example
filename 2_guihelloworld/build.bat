@@ -15,7 +15,7 @@ set INCLUDEPATH=%GDK_PATH%
 
 ::设备文件目录及文件名
 set DDBLIBFILE=%GDK_PATH%\lib\drive.asm
-
+set MODULELIBS=%GDK_PATH%\lib\standard.asl
 
 echo *************** start of precompiler ****%INCLUDEPATH%**********%DDBLIBFILE%**********
 set "x=0"
@@ -99,7 +99,7 @@ SET /a "x+=1"
 goto :LinkLoop
 :endLinkLoop
 
-dlbc1 -o %OUTFILE% %DDBLIBFILE% %LinkFile%
+dlbc1 -o %OUTFILE% %DDBLIBFILE% %MODULELIBS% %LinkFile%
 if not "%errorlevel%"=="0" (goto dlerror)
 goto dlcompile
 :dlerror
