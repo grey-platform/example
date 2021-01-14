@@ -1,19 +1,19 @@
 @echo off
 
-::Դ�ļ�����
+::源文件设置，无需包含后缀名（默认为.cpp）
 set sourcefile[0]=main
 
-::���ļ����Ŀ¼���ļ���
+::包文件输出目录及文件名,后缀必须为.epk
 set EPKFILE=helloworld.epk
 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-::�����ļ����Ŀ¼����
+::程序文件输出目录设置
 set OUTFILE=bin\code
-::ϵͳ����Ŀ¼����
+::系统包含目录设置
 set INCLUDEPATH=%GDK_PATH%
 
-::�豸�ļ�Ŀ¼���ļ���
+::设备文件目录及文件名
 set DDBLIBFILE=%GDK_PATH%\lib\drive.asm
 set MODULELIBS=%GDK_PATH%\lib\standard.asl
 
