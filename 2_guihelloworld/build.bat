@@ -23,7 +23,7 @@ set "x=0"
 if not defined sourcefile[%x%] goto :endPrecompileLoop
 call set cppfile=%%sourcefile[%x%]%%.cpp
 call set dpcfile=%temp%\%%sourcefile[%x%]%%.dpc
-dp -DEXTERNC -I%INCLUDEPATH% %cppfile% %dpcfile%
+dp -DEXTERNC -DCPLUS -I%INCLUDEPATH% %cppfile% %dpcfile%
 if not "%errorlevel%"=="0" (goto dperror)
 echo precompile file %cppfile% OK!!!
 SET /a "x+=1"

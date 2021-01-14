@@ -1,11 +1,11 @@
 <program>
-    <appname>helloworld</appname>
-    <taskname>helloworld</taskname>
+    <appname>guihelloworld</appname>
+    <taskname>guihelloworld</taskname>
     <developer>dodobox</developer>
     <descript>test demo</descript>
     <versioncode>1</versioncode>
     
-    <model>console</model>	<!--normal console desktop0 desktop1-->
+    <model>normal</model>	<!--normal console-->
     <heap>10485760</heap>
     <stack>4194304</stack>
 </program>

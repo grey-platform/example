@@ -5,7 +5,7 @@
     <descript>test demo</descript>
     <versioncode>1</versioncode>
     
-    <model>console</model>	<!--normal console desktop0 desktop1-->
+    <model>console</model>	<!--normal console-->
     <heap>10485760</heap>
     <stack>4194304</stack>
 </program>
