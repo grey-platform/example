@@ -1,0 +1,11 @@
+<program>
+    <appname>¶íÂÞË¹·½¿é</appname>
+    <taskname>tirs</taskname>
+    <developer>dodobox</developer>
+    <descript>tirs</descript>
+    <versioncode>1</versioncode>
+    
+    <model>normal</model>	<!--normal console desktop0 desktop1-->
+    <heap>10485760</heap>
+    <stack>4194304</stack>
+</program>
