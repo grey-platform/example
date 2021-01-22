@@ -1,6 +1,8 @@
 #include <standard/applite.h>
 #include <standard/gui.h>
 
+
+
 class CHelloWorldApp: public CAppLite{
 public:
     CHelloWorldApp(){

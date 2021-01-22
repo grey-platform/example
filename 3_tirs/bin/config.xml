@@ -5,7 +5,7 @@
     <descript>tirs</descript>
     <versioncode>1</versioncode>
     
-    <model>normal</model>	<!--normal console desktop0 desktop1-->
+    <model>normal</model>
     <heap>10485760</heap>
     <stack>4194304</stack>
 </program>
