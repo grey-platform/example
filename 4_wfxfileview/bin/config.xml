@@ -1,0 +1,11 @@
+<program>
+    <appname>模型查看器</appname>
+    <taskname>wfxfileview</taskname>
+    <developer>dodobox</developer>
+    <descript>wfxfileview</descript>
+    <versioncode>1</versioncode>
+    
+    <model>normal</model>
+    <heap>20971520</heap>   
+    <stack>4194304</stack>
+</program>

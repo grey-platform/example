@@ -1,0 +1,101 @@
+<wfxfile name="campfire"version="1.1">
+  <spray name="node"id="0"parentid="-1">
+      <transform>
+          <visibility value="1.0"/>
+          <position>0,0,0</position>
+          <rotation>0,0,0,1.0</rotation>
+          <scaling>1.0,1.0,1.0</scaling>
+      </transform>
+      <emitter>
+          <ect atomictype="-1"atomicname=""nexteffectname=""soundname=""soundrepeat="0"attachmode="0"attachendmode="0"/>
+          <create delaytime="0.000000"createtime="0.020000"lifetime="0.500000"numnode="1"create="2"/>
+          <startmode start="0"scalarregular="0"scalarmax="1.000000"scalarmin="0.000000"angleregular="0"anglemax="360.000000"anglemin="0.000000"inheritmatrix="1"/>
+          <movemode enable="0"move="0"speedmax="1.000000"speedmin="0.000000"expansionmatrix="0"/>
+          <pos startenable="0"startpos="0.000000,0.000000,0.000000"endenable="0"endpos="0.000000,0.000000,0.000000"boundcheck="0"inheritendpos="0"posrevers="0"/>
+          <straight enable="0"speed="0.000000"accel="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <rotate enable="0"radius="0.000000"speed="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <gravity enable="0"start="0.000000"speed="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <following enable="0"rangestart="0.000000"rangeaccel="0.000000"/>
+          <dir startenable="0"start="0.000000,0.000000,0.000000"rotateenable="0"rotatespeedx="0.000000"rotatespeedy="0.000000"rotatespeedz="0.000000"billboard="0"equalnodedir="0"/>
+          <dirchild startenable="0"start="0.000000,0.000000,0.000000"rotateenable="0"rotatespeedx="0.000000"rotatespeedy="0.000000"rotatespeedz="0.000000"randomrotatex="0"randomrotatey="0"randomrotatez="0"billboard="0"equalnodedir="0"/>
+          <scale scaleenable="0"regularenable="0"regularstart="1.000000"regularspeed="0.000000"sinenable="0"sinstart="1.000000"sinend="0.000000"sinperiodictime="0.000000"additionx="0"additiony="0"additionz="0"additionregular="0"additionregularstart="1.000000"additionregularspeed="0.000000"additionsin="0"additionsinstart="1.000000"additionsinend="0.000000"additionsinperiodictime="0.000000"/>
+          <alpha blend="3"zbuffer="1"regularenable="0"regularstart="1.000000"regularend="0.000000"sinenable="0"sinstart="1.000000"sinend="0.000000"sinperiodictime="0.000000"colorenable="0"color="1.000000,1.000000,1.000000"/>
+          <atomicinst animation="0"blend="0"side="0"anitimeenable="0"anitime="0.000000"/>
+      </emitter>
+  </spray>
+  <spray name="node"id="1"parentid="0">
+      <transform>
+          <visibility value="1.0"/>
+          <position>0,0,0</position>
+          <rotation>0,0,0,1.0</rotation>
+          <scaling>1.0,1.0,1.0</scaling>
+      </transform>
+      <emitter>
+          <ect atomictype="0"atomicname="clouds_white.wft"nexteffectname=""soundname=""soundrepeat="0"attachmode="0"attachendmode="0"/>
+          <create delaytime="0.000000"createtime="0.200000"lifetime="1.500000"numnode="1"create="0"/>
+          <startmode start="0"scalarregular="0"scalarmax="1.000000"scalarmin="0.000000"angleregular="0"anglemax="360.000000"anglemin="0.000000"inheritmatrix="1"/>
+          <movemode enable="1"move="2"speedmax="100.000000"speedmin="0.000000"expansionmatrix="0"/>
+          <pos startenable="0"startpos="0.000000,0.000000,0.000000"endenable="0"endpos="0.000000,0.000000,0.000000"boundcheck="0"inheritendpos="0"posrevers="0"/>
+          <straight enable="0"speed="0.000000"accel="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <rotate enable="0"radius="0.000000"speed="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <gravity enable="1"start="-500.000000"speed="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <following enable="0"rangestart="0.000000"rangeaccel="0.000000"/>
+          <dir startenable="0"start="0.000000,0.000000,0.000000"rotateenable="0"rotatespeedx="0.000000"rotatespeedy="0.000000"rotatespeedz="0.000000"billboard="0"equalnodedir="0"/>
+          <dirchild startenable="0"start="0.000000,0.000000,0.000000"rotateenable="0"rotatespeedx="0.000000"rotatespeedy="0.000000"rotatespeedz="0.000000"randomrotatex="0"randomrotatey="0"randomrotatez="0"billboard="1"equalnodedir="0"/>
+          <scale scaleenable="1"regularenable="1"regularstart="3.000000"regularspeed="10.000000"sinenable="0"sinstart="1.000000"sinend="0.000000"sinperiodictime="0.000000"additionx="0"additiony="0"additionz="0"additionregular="0"additionregularstart="1.000000"additionregularspeed="0.000000"additionsin="0"additionsinstart="1.000000"additionsinend="0.000000"additionsinperiodictime="0.000000"/>
+          <alpha blend="4"zbuffer="1"regularenable="1"regularstart="1.000000"regularend="0.000000"sinenable="0"sinstart="0.600000"sinend="0.400000"sinperiodictime="0.200000"colorenable="0"color="1.000000,1.000000,1.000000"/>
+          <atomicinst animation="1"blend="0"side="0"anitimeenable="0"anitime="0.000000"/>
+      </emitter>
+  </spray>
+  <spray name="node"id="2"parentid="0">
+      <transform>
+          <visibility value="1.0"/>
+          <position>0,0,0</position>
+          <rotation>0,0,0,1.0</rotation>
+          <scaling>1.0,1.0,1.0</scaling>
+      </transform>
+      <emitter>
+          <ect atomictype="0"atomicname="boom_flame.wft"nexteffectname=""soundname=""soundrepeat="0"attachmode="0"attachendmode="0"/>
+          <create delaytime="0.000000"createtime="0.070000"lifetime="0.500000"numnode="3"create="0"/>
+          <startmode start="2"scalarregular="0"scalarmax="45.000000"scalarmin="0.000000"angleregular="0"anglemax="360.000000"anglemin="0.000000"inheritmatrix="1"/>
+          <movemode enable="1"move="2"speedmax="150.000000"speedmin="0.000000"expansionmatrix="0"/>
+          <pos startenable="0"startpos="0.000000,0.000000,0.000000"endenable="0"endpos="0.000000,0.000000,0.000000"boundcheck="0"inheritendpos="0"posrevers="0"/>
+          <straight enable="0"speed="0.000000"accel="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <rotate enable="0"radius="0.000000"speed="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <gravity enable="1"start="-600.000000"speed="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <following enable="0"rangestart="0.000000"rangeaccel="0.000000"/>
+          <dir startenable="0"start="0.000000,0.000000,0.000000"rotateenable="0"rotatespeedx="0.000000"rotatespeedy="0.000000"rotatespeedz="0.000000"billboard="0"equalnodedir="0"/>
+          <dirchild startenable="0"start="0.000000,0.000000,0.000000"rotateenable="0"rotatespeedx="0.000000"rotatespeedy="0.000000"rotatespeedz="0.000000"randomrotatex="0"randomrotatey="0"randomrotatez="0"billboard="1"equalnodedir="0"/>
+          <scale scaleenable="1"regularenable="1"regularstart="7.500000"regularspeed="-7.500000"sinenable="0"sinstart="1.000000"sinend="0.000000"sinperiodictime="0.000000"additionx="0"additiony="0"additionz="0"additionregular="0"additionregularstart="1.000000"additionregularspeed="0.000000"additionsin="0"additionsinstart="1.000000"additionsinend="0.000000"additionsinperiodictime="0.000000"/>
+          <alpha blend="3"zbuffer="1"regularenable="1"regularstart="0.300000"regularend="0.400000"sinenable="0"sinstart="1.000000"sinend="0.000000"sinperiodictime="0.000000"colorenable="0"color="1.000000,1.000000,1.000000"/>
+          <atomicinst animation="1"blend="1"side="0"anitimeenable="0"anitime="0.000000"/>
+      </emitter>
+  </spray>
+  <spray name="node"id="3"parentid="0">
+      <transform>
+          <visibility value="1.0"/>
+          <position>0,0,0</position>
+          <rotation>0,0,0,1.0</rotation>
+          <scaling>1.0,1.0,1.0</scaling>
+      </transform>
+      <emitter>
+          <ect atomictype="0"atomicname="flare.wft"nexteffectname=""soundname=""soundrepeat="0"attachmode="0"attachendmode="0"/>
+          <create delaytime="0.000000"createtime="0.200000"lifetime="1.500000"numnode="1"create="2"/>
+          <startmode start="0"scalarregular="0"scalarmax="1.000000"scalarmin="0.000000"angleregular="0"anglemax="360.000000"anglemin="0.000000"inheritmatrix="0"/>
+          <movemode enable="0"move="2"speedmax="50.000000"speedmin="0.000000"expansionmatrix="0"/>
+          <pos startenable="0"startpos="0.000000,0.000000,0.000000"endenable="0"endpos="0.000000,0.000000,0.000000"boundcheck="0"inheritendpos="0"posrevers="0"/>
+          <straight enable="0"speed="0.000000"accel="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <rotate enable="0"radius="0.000000"speed="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <gravity enable="0"start="-220.000000"speed="0.000000"dir="0.000000,0.000000,0.000000"/>
+          <following enable="0"rangestart="0.000000"rangeaccel="0.000000"/>
+          <dir startenable="0"start="0.000000,0.000000,0.000000"rotateenable="0"rotatespeedx="0.000000"rotatespeedy="0.000000"rotatespeedz="0.000000"billboard="0"equalnodedir="0"/>
+          <dirchild startenable="0"start="0.000000,0.000000,0.000000"rotateenable="0"rotatespeedx="0.000000"rotatespeedy="0.000000"rotatespeedz="0.000000"randomrotatex="0"randomrotatey="0"randomrotatez="0"billboard="1"equalnodedir="0"/>
+          <scale scaleenable="1"regularenable="1"regularstart="50.000000"regularspeed="0.000000"sinenable="0"sinstart="1.000000"sinend="0.000000"sinperiodictime="0.000000"additionx="0"additiony="0"additionz="0"additionregular="0"additionregularstart="1.000000"additionregularspeed="0.000000"additionsin="0"additionsinstart="1.000000"additionsinend="0.000000"additionsinperiodictime="0.000000"/>
+          <alpha blend="3"zbuffer="1"regularenable="0"regularstart="1.000000"regularend="0.000000"sinenable="1"sinstart="1.000000"sinend="0.700000"sinperiodictime="0.100000"colorenable="1"color="1.000000,0.800000,0.500000"/>
+          <atomicinst animation="1"blend="0"side="0"anitimeenable="0"anitime="0.000000"/>
+      </emitter>
+  </spray>
+  <sequence>
+  <item name="default">0.000000,0.000000,1.000000</item>
+  </sequence>
+</wfxfile>
