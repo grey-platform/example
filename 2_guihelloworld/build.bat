@@ -124,6 +124,6 @@ echo pack complete!
 
 echo all complete!
 
-gray -start %EPKFILE%
+grey -start %EPKFILE%
 
 exit
