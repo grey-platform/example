@@ -126,5 +126,4 @@ echo all complete!
 
 grey -start %EPKFILE%
 
-pause
 exit
