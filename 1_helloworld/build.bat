@@ -45,7 +45,7 @@ if not defined sourcefile[%x%] goto :endcplusLoop
 call set _filename=%%sourcefile[%x%]%%
 call set ccfile=%temp%\%%sourcefile[%x%]%%.cc
 call set dpcfile=%temp%\%%sourcefile[%x%]%%.dpc
-cplus -s%_filename% < %dpcfile% > %ccfile%
+cplus -s %_filename% < %dpcfile% > %ccfile%
 if not "%errorlevel%"=="0" (goto cpluserror)
 echo cplus file %ccfile% OK!!!
 SET /a "x+=1"
