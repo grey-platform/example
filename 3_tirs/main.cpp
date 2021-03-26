@@ -27,7 +27,7 @@ public:
         int32 _nWindowTop = nHeight / 2 - _nWindowHeight / 2;
 
         SRand( time( 0 ) );
-        m_pWindow = NEW CWindow( _nWindowLeft, _nWindowTop, _nWindowWidth, _nWindowHeight, "俄罗斯方块" );
+        m_pWindow = NEW CWindow( _nWindowLeft, _nWindowTop, _nWindowWidth, _nWindowHeight, "俄罗斯方块", False );
         m_pLayer0 = NEW CMenuLayer();
         m_pLayer0->Init( m_pWindow );
         m_pLayer0->m_pSwitcherEventObject = this;
